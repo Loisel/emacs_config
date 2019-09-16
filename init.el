@@ -83,12 +83,6 @@
   (require 'poly-markdown)
   (poly-markdown+r-mode))
 
-;; (add-hook 'poly-markdown+r-mode 'yas-minor-mode)
-
-;; smartparens
-;;(require 'smartparens-config)
-;; Always start smartparens mode in python mode.
-;;(add-hook 'python-mode-hook 'smartparens-mode)
 
 ;; elpy mode
 (elpy-enable)
@@ -106,11 +100,9 @@
 ;; ibuffer instead of normal buffer view
 (global-set-key (kbd "C-x C-b") 'ibuffer)
 
-;; add-quotes
-(global-set-key (kbd "M-\"") 'add-quotes)
-
 ;; comment-or-uncomment
 (global-set-key (kbd "C-;") 'comment-or-uncomment-region)
+
 (global-set-key (kbd "C-x C-r") 'revert-buffer)
 
 ;; magit status
